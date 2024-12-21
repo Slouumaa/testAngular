@@ -1,0 +1,11 @@
+<div *ngFor="let team of teams">
+     <div>
+            <h3>{{ team.name }}</h3>
+            <p>Level: {{ team.level }}</p>
+            <p>Project: {{ team.projectName }}</p>
+            <a [routerLink]="['/team', team.id, 'details']">Details</a>
+      </div>
+  </div>
+  
+ 
+  

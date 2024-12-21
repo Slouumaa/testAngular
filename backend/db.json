@@ -1,0 +1,49 @@
+{
+  "teams": [
+    {
+      "id": 1,
+      "name": "Team Alpha",
+      "level": "Intermediate",
+      "projectName": "Project X",
+      "projectDescription": "A description for Project X",
+      "participants": [
+        {
+          "id": 1,
+          "fullname": "John Doe",
+          "email": "john.doe@example.com"
+        },
+        {
+          "id": 2,
+          "fullname": "Jane Smith",
+          "email": "jane.smith@example.com"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Team Beta",
+      "level": "Advanced",
+      "projectName": "Project Y",
+      "projectDescription": "A description for Project Y",
+      "participants": [
+        {
+          "id": 3,
+          "fullname": "Alice Brown",
+          "email": "alice.brown@example.com"
+        },
+        {
+          "id": 1,
+          "fullname": "John Doe",
+          "email": "john.doe@example.com"
+        }
+      ]
+    },
+    {
+      "id": "a2be",
+      "name": "kdkkdk",
+      "projectName": "ododo",
+      "level": "ododod",
+      "projectDescription": "kdidkd"
+    }
+  ]
+}

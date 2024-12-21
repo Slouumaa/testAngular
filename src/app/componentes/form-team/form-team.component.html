@@ -1,0 +1,31 @@
+<form [formGroup]="teamForm" (ngSubmit)="addTeam()">
+    <br>
+    <label>Name:</label>
+    <input formControlName="name" />
+    <div *ngIf="teamForm.controls['name'].invalid && teamForm.controls['name'].touched">
+      Name is required and should contain only letters or digits.
+    </div>
+  <br>
+  <br>
+    <label>Project Name:</label>
+    <input formControlName="projectName" />
+    <div *ngIf="teamForm.controls['projectName'].invalid && teamForm.controls['projectName'].touched">
+      Project Name is required and should contain only letters or digits.
+    </div>
+    <br>
+    <br>
+    <label>Level:</label>
+    <input formControlName="level" />
+    <div *ngIf="teamForm.controls['level'].invalid && teamForm.controls['level'].touched">
+      Level is required and should contain only letters or digits.
+    </div>
+    <br><br><br>
+    <label>Project Description (optional):</label>
+    <textarea formControlName="projectDescription"></textarea>
+    <div *ngIf="teamForm.controls['projectDescription'].invalid && teamForm.controls['projectDescription'].touched">
+      Description must have at least 5 characters.
+    </div>
+   
+    <button type="submit" [disabled]="teamForm.invalid">Ajouter</button>
+  </form>
+  
